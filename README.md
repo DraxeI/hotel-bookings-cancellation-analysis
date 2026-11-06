@@ -21,6 +21,7 @@ An end-to-end analysis of two Portuguese hotels (a City Hotel and a Resort Hotel
 | File | Description |
 |---|---|
 | `hotel_analysis.ipynb` | The full analysis: cleaning, 8 business questions, hypothesis tests |
+| `hotels.csv` | The dataset (raw, 119,390 rows). Source and credit are in the Data section |
 | `hotel_bookings_analysis.pdf` | Presentation slides (PDF) |
 | `hotel_bookings_analysis.pptx` | Presentation slides (editable) |
 | `images/` | Slide images used in this README |
@@ -28,15 +29,18 @@ An end-to-end analysis of two Portuguese hotels (a City Hotel and a Resort Hotel
 
 ## Data
 
-The dataset is **not included** in this repository.
+The raw dataset is included in this repository as `hotels.csv`, so the notebook runs as it is.
 
-- **Where to get it:** the TidyTuesday project, week of 2020-02-11, "Hotel Bookings": [github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-02-11](https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-02-11) (file `hotels.csv`)
+- **Where I found it:** the TidyTuesday project, week of 2020-02-11, "Hotel Bookings": [github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-02-11](https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-02-11)
 - **Original data:** Antonio, N., de Almeida, A., & Nunes, L. (2019). *Hotel booking demand datasets.* Data in Brief, 22, 41-49. [doi:10.1016/j.dib.2018.11.126](https://doi.org/10.1016/j.dib.2018.11.126)
+- **Prepared for TidyTuesday by:** Thomas Mock and Antoine Bichat.
 - **Size:** 119,390 bookings and 32 columns, with arrivals from July 2015 to August 2017.
+
+All rights to the data belong to the original authors. It is included here only so that the analysis can be reproduced. Please see the links above for the original source and its terms.
 
 ## How to run
 
-1. Download `hotels.csv` from the link above and put it in the same folder as the notebook.
+1. Download or clone this repository. `hotels.csv` must stay in the same folder as the notebook.
 2. Install the packages: `pip install -r requirements.txt`
 3. Open `hotel_analysis.ipynb` in Jupyter and run all cells from top to bottom.
 
